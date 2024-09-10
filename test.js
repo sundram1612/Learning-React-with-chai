@@ -1,7 +1,7 @@
-let str = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz";
+import React from 'react';
 
-let char = Math.floor(Math.random() * str.length + 1);
+function Greeting() {
+  return <h1>Hello, World!</h1>;
+}
 
-console.log(char);
-
-console.log(typeof char);
+export default Greeting;
